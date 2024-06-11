@@ -50,3 +50,8 @@ document.getElementById('editForm').addEventListener('submit', function(event) {
       document.getElementById('responseMessage').textContent = `Error: ${error}`;
   });
 });
+
+// Handle Cancel button click
+document.getElementById('cancelButton').addEventListener('click', function() {
+  window.location.href = 'index.html';
+});
